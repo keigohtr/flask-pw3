@@ -185,3 +185,8 @@ License
 ========
 
 Licensed under a MIT license (See LICENSE)
+
+.. _links:
+
+.. _Flask: http://flask.pocoo.org/
+.. _Peewee: http://docs.peewee-orm.com/en/latest/
