@@ -1,4 +1,4 @@
-The Flask-PW
+The Flask-PW3
 ############
 
 .. _badges:
@@ -20,7 +20,7 @@ The Flask-PW
 Forked from https://github.com/klen/flask-pw , can be used with peewee 3.x.
 
 
-The Flask-PW -- Peewee_ ORM intergration for Flask_ framework.
+The Flask-PW3 -- Peewee_ ORM intergration for Flask_ framework.
 
 The plugin configures DB connection and provides some tools such as migrations
 and signals. It also provides Peewee_ ORM support for Flask-Debugtoolbar_
@@ -40,7 +40,7 @@ Requirements
 Installation
 =============
 
-**Flask-PW** should be installed using pip: ::
+**Flask-PW3** should be installed using pip: ::
 
     pip install flask-pw3
 
@@ -52,7 +52,7 @@ Usage
 Settings
 --------
 
-Flask-PW settings (default values): ::
+Flask-PW3 settings (default values): ::
 
     # Connection URI
     PEEWEE_DATABASE_URI = 'sqlite:///peewee.sqlite'
@@ -174,7 +174,7 @@ at https://github.com/keigohtr/flask-pw3/issues
 Contributing
 ============
 
-Development of The Flask-pw happens at: https://github.com/keigohtr/flask-pw3
+Development of The Flask-pw3 happens at: https://github.com/keigohtr/flask-pw3
 
 
 Contributors
