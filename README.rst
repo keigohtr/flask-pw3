@@ -54,11 +54,8 @@ Settings
 
 Flask-PW3 settings (default values): ::
 
-    # Connection URI
-    PEEWEE_DATABASE_URI = 'sqlite:///peewee.sqlite'
-
-    # Connection params (for example for pgsql: { encoding: 'utf-8' })
-    PEEWEE_CONNECTION_PARAMS = {}
+    # Connection URI (FlaskDB)
+    DATABASE = 'sqlite:///peewee.sqlite'
 
     # Path to directory which contains migrations
     PEEWEE_MIGRATE_DIR = 'migrations'
@@ -94,7 +91,7 @@ Example
 
     app = Flask(__name__)
 
-    app.config['PEEWEE_DATABASE_URI'] = 'sqlite:///:memory:'
+    app.config['DATABASE'] = 'sqlite:///:memory:'
 
     db = Peewee(app)
 
