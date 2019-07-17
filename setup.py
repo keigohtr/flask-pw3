@@ -32,7 +32,7 @@ setup(
 
     author='Kirill Klenov',
     author_email='horneds@gmail.com',
-    url='https://github.com/klen/flask-pw',
+    url='https://github.com/keigohtr/flask-pw3',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

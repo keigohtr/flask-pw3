@@ -7,15 +7,18 @@ The Flask-PW
     .. :target: http://travis-ci.org/klen/falsk-pw
     .. :alt: Build Status
 
-.. .. image:: http://img.shields.io/pypi/v/flask-pw.svg?style=flat-square
-    .. :target: https://pypi.python.org/pypi/flask-pw
+.. .. image:: http://img.shields.io/pypi/v/flask-pw3.svg?style=flat-square
+    .. :target: https://pypi.python.org/pypi/flask-pw3
     .. :alt: Version
 
-.. .. image:: http://img.shields.io/pypi/dm/flask-pw.svg?style=flat-square
-    .. :target: https://pypi.python.org/pypi/flask-pw
+.. .. image:: http://img.shields.io/pypi/dm/flask-pw3.svg?style=flat-square
+    .. :target: https://pypi.python.org/pypi/flask-pw3
     .. :alt: Downloads
 
 .. _description:
+
+Forked from https://github.com/klen/flask-pw , can be used with peewee 3.x.
+
 
 The Flask-PW -- Peewee_ ORM intergration for Flask_ framework.
 
@@ -30,6 +33,7 @@ Requirements
 =============
 
 - python 2.7+,3.4+
+- peewee 3+
 
 .. _installation:
 
@@ -38,7 +42,7 @@ Installation
 
 **Flask-PW** should be installed using pip: ::
 
-    pip install flask-pw
+    pip install flask-pw3
 
 .. _usage:
 
@@ -163,14 +167,14 @@ Bug tracker
 
 If you have any suggestions, bug reports or
 annoyances please report them to the issue tracker
-at https://github.com/klen/flask-pw/issues
+at https://github.com/keigohtr/flask-pw3/issues
 
 .. _contributing:
 
 Contributing
 ============
 
-Development of The Flask-pw happens at: https://github.com/klen/flask-pw
+Development of The Flask-pw happens at: https://github.com/keigohtr/flask-pw3
 
 
 Contributors
