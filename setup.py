@@ -26,19 +26,19 @@ setup(
     version=_version,
     license=_license,
     description='Peewee ORM integration for Flask framework',
+    long_description_content_type='text/x-rst',
     long_description=_read('README.rst'),
     platforms=('Any'),
     keywords = "flask peewee migrations migrate signals".split(), # noqa
 
-    author='Kirill Klenov',
-    author_email='horneds@gmail.com',
+    author='Keigo Hattori',
+    author_email='keigoht@gmail.com',
     url='https://github.com/keigohtr/flask-pw3',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
-        'Natural Language :: Russian',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
