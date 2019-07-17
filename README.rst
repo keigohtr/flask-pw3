@@ -3,8 +3,8 @@ The Flask-PW3
 
 .. _badges:
 
-.. .. image:: http://img.shields.io/travis/klen/falsk-pw.svg?style=flat-square
-    .. :target: http://travis-ci.org/klen/falsk-pw
+.. .. image:: http://img.shields.io/travis/keigohtr/flask-pw3.svg?style=flat-square
+    .. :target: http://travis-ci.org/keigohtr/flask-pw3
     .. :alt: Build Status
 
 .. .. image:: http://img.shields.io/pypi/v/flask-pw3.svg?style=flat-square
@@ -185,18 +185,3 @@ License
 ========
 
 Licensed under a MIT license (See LICENSE)
-
-If you wish to express your appreciation for the project, you are welcome to
-send a postcard to: ::
-
-    Kirill Klenov
-    pos. Severny 8-3
-    MO, Istra, 143500
-    Russia
-
-.. _links:
-
-.. _klen: https://github.com/klen
-.. _Flask: http://flask.pocoo.org/
-.. _Peewee: http://docs.peewee-orm.com/en/latest/
-.. _Flask-Debugtoolbar: https://flask-debugtoolbar.readthedocs.org/en/latest/
