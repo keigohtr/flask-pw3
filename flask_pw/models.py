@@ -112,11 +112,6 @@ class Model(with_metaclass(BaseSignalModel, pw.Model)):
             query.database = cls._get_read_database()
         return query
 
-    @property
-    def pk(self):
-        """Return primary key value."""
-        return self._get_pk_value()
-
     @classmethod
     def get_or_none(cls, *args, **kwargs):
         try:
@@ -126,7 +121,7 @@ class Model(with_metaclass(BaseSignalModel, pw.Model)):
 
     def save(self, force_insert=False, **kwargs):
         """Send signals."""
-        created = force_insert or not bool(self.pk)
+        created = force_insert or not bool(self._pk)
         self.pre_save.send(self, created=created)
         super(Model, self).save(force_insert=force_insert, **kwargs)
         self.post_save.send(self, created=created)
