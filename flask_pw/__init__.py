@@ -13,7 +13,7 @@ from .models import Model, BaseSignalModel, Choices # noqa
 
 __license__ = "MIT"
 __project__ = "Flask-PW3"
-__version__ = "0.0.2"
+__version__ = "0.1.0a2"
 
 LOGGER = logging.getLogger(__name__)
 
