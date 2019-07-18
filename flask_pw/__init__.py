@@ -61,7 +61,7 @@ class Peewee(FlaskDB):
 
         return [m for m in models if m._meta.name not in ignore]
 
-    def cmd_create(self, name, auto=False):
+    def cmd_create(self, name='auto', auto=False):
         """Create a new migration."""
 
         LOGGER.setLevel('INFO')
@@ -163,7 +163,7 @@ class Peewee(FlaskDB):
         @cli.command()
         @click.argument('name')
         @click.option('--auto', is_flag=True)
-        def create(name, auto=False):
+        def create(name='auto', auto=False):
             """Create a new migration."""
             return self.cmd_create(name, auto)
 
